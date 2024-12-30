@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-primary: hsl(204, 100%, 66%);
+        --color-secondary: hsl(199, 61%, 92%);
+        --color-text-base: hsl(0,0,100%);
+        --color-bg-primary: hsl(194, 75%, 89%);
+    }
+    *{
+        @apply transition-colors duration-200 ease-in-out;
+    }
+}
+
+.theme-blue {
+    --color-primary: hsl(194, 99%, 59%);
+    --color-secondary: hsl(190, 88%, 94%);
+}
+
+.theme-pink{
+    --color-primary: hsl(327, 92%, 80%);
+    --color-secondary: hsl(332, 75%, 87%);
+}
+
+.theme-green{
+    --color-primary: hsl(170, 92%, 64%);
+    --color-secondary: hsl(171, 96%, 89%);
+}
+
+.theme-gray{
+    --color-primary: hsl(0, 0%, 18%);
+    --color-secondary: hsl(0, 4%, 68%);
+}
+
+.theme-red {
+    --color-primary: hsl(346, 90%, 69%);
+    --color-secondary: hsl(342, 83%, 84%);
+}
+
+.theme-yellow {
+    --color-primary: hsl(57, 96%, 52%);
+    --color-secondary: hsl(63, 86%, 86%);
+}
+
+.theme-darkGreen {
+    --color-primary: hsl(156, 99%, 58%);
+    --color-secondary: hsl(148, 93%, 83%);
+}
+
+.theme-orange {
+    --color-primary: hsl(23, 91%, 68%);
+    --color-secondary: hsl(23, 88%, 74%);
+}
+.theme-purple {
+    --color-primary: hsl(281, 96%, 67%);
+    --color-secondary: hsl(280, 96%, 90%);
+}
