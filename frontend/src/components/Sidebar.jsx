@@ -28,7 +28,9 @@ function Sidebar({isSidebarOpen,setIsSidebaropen}) {
                     className="text-2xl p-2 border rounded-md mr-3"
                     onClick={() => setIsSidebaropen(false)} 
                     >
-                    <IoClose />
+                                                    Icon={() => (
+                                    <GoTasklist size={30}/>
+                                )}
                 </button>
             </div>
             <div className='flex items-start justify-center flex-col p-10'>

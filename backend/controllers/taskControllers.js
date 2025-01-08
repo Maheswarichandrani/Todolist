@@ -10,7 +10,7 @@ export const addNewTask = async (req,res) => {
             description,
             date,
             priority,
-            remainders,
+            remainder,
             tags,
         } = req.body
 
@@ -19,7 +19,7 @@ export const addNewTask = async (req,res) => {
             description,
             date,
             priority,
-            remainders,
+            remainder,
             tags,
             createdBy: req.userId
         })
